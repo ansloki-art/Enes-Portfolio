@@ -3,3 +3,69 @@
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* ── Gradient text ── */
+.text-gradient {
+  background: linear-gradient(135deg, #7c3aed 0%, #0ea5e9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Entry animation ── */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.anim-fade-up {
+  animation: fade-up 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* ── Dot grid background ── */
+.dot-bg {
+  background-image: radial-gradient(circle, #e4e4e7 1px, transparent 1px);
+  background-size: 26px 26px;
+}
+
+/* ── Card hover lift ── */
+.card-lift {
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.card-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.09);
+  border-color: #a1a1aa;
+}
+
+/* ── Skill pill hover ── */
+.pill {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.pill:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.14);
+}
+
+/* ── Primary button micro-animation ── */
+.btn-primary {
+  transition: transform 0.15s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+.btn-primary:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
