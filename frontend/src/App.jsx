@@ -1,7 +1,19 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
 export default function App() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold text-indigo-600">Hello ansloki</h1>
-    </div>
-  )
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
+    </>
+  );
 }
