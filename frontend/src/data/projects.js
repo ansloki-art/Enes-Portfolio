@@ -19,4 +19,13 @@ export const projects = [
         repo: "https://github.com/ansloki-art/Mizwar_films_portfolio",
         image: "/mizwarfilms.png",
     },
+    {
+        title: "Wany Photography",
+        tagline: "Wedding & portrait photographer portfolio",
+        description: "A dark editorial portfolio for a professional wedding photographer. Features a full-screen hero, filterable photo gallery, and service packages — built for the local Aceh market.",
+        stack: ["React", "Vite", "Tailwind CSS"],
+        live: "https://wanyphotographer.vercel.app/",
+        repo: "https://github.com/ansloki-art/Wany-photographer-portfolio",
+        image: "/wany.png",
+        },
 ];
