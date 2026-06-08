@@ -20,7 +20,7 @@ function Hero() {
         }}
       />
 
-      <div className="relative max-w-4xl mx-auto px-6 pt-28 pb-24">
+      <div className="relative max-w-4xl mx-auto px-6 pt-24 pb-16">
         {/* Availability badge */}
         <div
           className="anim-fade-up inline-flex items-center gap-2 mb-7 rounded-full border border-emerald-200 bg-emerald-50 px-3.5 py-1.5 text-xs font-semibold text-emerald-700"
