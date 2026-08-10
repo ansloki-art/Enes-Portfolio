@@ -27,14 +27,14 @@ export const projects = [
         live: "https://wanyphotographer.vercel.app/",
         repo: "https://github.com/ansloki-art/Wany-photographer-portfolio",
         image: "/wany.png",
-        },
-        {
+    },
+    {
         title: "Skala Story",
-        tagline: "PROFESSIONAL Photography & Cinematography",
-        description: "A dark editorial portfolio for a professional wedding photographer. Features a full-screen hero, filterable photo gallery, and service packages — built for the local Aceh market.",
+        tagline: "Professional photography & cinematography",
+        description: "A cinematic wedding portfolio with a full-screen hero showcasing traditional Acehnese bridal portraits, a curated gallery, and service packages presented in an elegant dark theme.",
         stack: ["React", "Vite", "Tailwind CSS"],
         live: "https://skalastory.vercel.app/",
         repo: "https://github.com/ansloki-art/skalastory",
         image: "/skalastory.png",
-        },
+    },
 ];
