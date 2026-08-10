@@ -28,4 +28,13 @@ export const projects = [
         repo: "https://github.com/ansloki-art/Wany-photographer-portfolio",
         image: "/wany.png",
         },
+        {
+        title: "Skala Story",
+        tagline: "PROFESSIONAL Photography & Cinematography",
+        description: "A dark editorial portfolio for a professional wedding photographer. Features a full-screen hero, filterable photo gallery, and service packages — built for the local Aceh market.",
+        stack: ["React", "Vite", "Tailwind CSS"],
+        live: "https://skalastory.vercel.app/",
+        repo: "https://github.com/ansloki-art/skalastory",
+        image: "/skalastory.png",
+        },
 ];
