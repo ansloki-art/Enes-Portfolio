@@ -37,4 +37,13 @@ export const projects = [
         repo: "https://github.com/ansloki-art/skalastory",
         image: "/skalastory.png",
     },
+    {
+    title: "Mizwar Films PWA",
+    tagline: "Photographer booking PWA",
+    description: "A Progressive Web App for a cinematographer/photographer, installable on mobile with offline support. Features service packages, portfolio gallery, and a booking flow powered by Supabase.",
+    stack: ["React", "Vite", "Tailwind CSS", "Supabase", "PWA"],
+    live: "https://mizwarapps.vercel.app/",
+    repo: "https://github.com/ansloki-art/Mizwar_films_portfolio",
+    image: "/mizwarapps.png",
+},
 ];
