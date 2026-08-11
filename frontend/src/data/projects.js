@@ -44,6 +44,6 @@ export const projects = [
     stack: ["React", "Vite", "Tailwind CSS", "Supabase", "PWA"],
     live: "https://mizwarapps.vercel.app/",
     repo: "https://github.com/ansloki-art/Mizwar_films_portfolio",
-    image: "/mizwarapps.png",
+    image: "/mizwar-pwa.png",
 },
 ];
